@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.category {
+  font-size: larger;
+  color: rgb(59, 124, 235);
+  padding-bottom: 20px;
+}
+
+.ant-color-picker-trigger {
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: start;
+  transition: all 0.2s;
+  background: #ffffff;
+  padding: 3px;
+}
