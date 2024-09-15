@@ -12,7 +12,7 @@ const DashBoardPage = () => {
 
   useEffect(() => {
     navigate(`/dashboard/${position}`)
-  }, [position]);
+  }, [position, navigate]);
 
   return (
     <LayoutPage>
